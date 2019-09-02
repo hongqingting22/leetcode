@@ -1,6 +1,6 @@
 package linkList;
 
-public class MergeTwoLists {
+public class MergeTwoLists_21 {
     /**
      * 递归
      * 最小的值 + 其余两个链表合并
