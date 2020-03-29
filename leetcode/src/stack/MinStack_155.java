@@ -38,20 +38,20 @@ public class MinStack_155 {
 
         }
 
-        public int top() {
+   /*     public int top() {
 
         }
 
         public int getMin() {
 
-        }
+        }*/
 
         public static void main(String[] args) {
-            MinStack_155 obj = new MinStack_155();
+            /*MinStack_155 obj = new MinStack_155();
             obj.push(x);
             obj.pop();
             int param_3 = obj.top();
-            int param_4 = obj.getMin();
+            int param_4 = obj.getMin();*/
         }
 
 /**
