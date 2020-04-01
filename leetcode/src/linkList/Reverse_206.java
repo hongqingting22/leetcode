@@ -27,8 +27,19 @@ public class Reverse_206 {
         return pre;
     }
 
+    /**
+     * 递归完成翻转链表
+     * 思路：
+     *  1.终止条件，链表最后一个元素，返回链表元素
+     *  2.   如图：cur->next
+     *          变形为：cur<-next
+     *      后面所有元素翻转后，需要将当前元素next元素的next属性指向当前元素
+     *      即：current.next.next = current;
+     *          current.next = null;
+     * @param head
+     * @return
+     */
     public ListNode reverseList2(ListNode head){
-
         if(head == null || head.next == null)return head;
         ListNode listNode = reverseList2(head.next);
         head.next.next = head;
