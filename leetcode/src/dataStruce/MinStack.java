@@ -11,7 +11,7 @@ import java.util.Stack;
  *          data入栈值，如果比min栈顶大，则不入栈，小于等于则入栈
  *          data出栈时，如果出栈
  */
-public class StackDemo {
+public class MinStack {
 
     Stack<Integer> dataStack = new Stack<>();
     Stack<Integer> minStack = new Stack<>();
@@ -38,7 +38,7 @@ public class StackDemo {
 
 
     public static void main(String[] args) {
-        StackDemo demo = new StackDemo();
+        MinStack demo = new MinStack();
         demo.push(2);
         demo.push(4);
         Integer integer = demo.peekMin();

@@ -20,6 +20,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ItemMore_169 {
+
     public int majorityElement(int[] nums) {
         if(nums == null)return -1;
         if(nums.length == 1)return nums[0];

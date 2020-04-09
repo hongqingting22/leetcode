@@ -28,6 +28,11 @@ package tree;
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,6 +51,8 @@ public class ReverseTree_226 {
         TreeNode left = invertTree(root.left);
         root.right = left;
         root.left = right;
+
+        Map map = new HashMap();
         return root;
 
     }

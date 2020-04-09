@@ -22,7 +22,7 @@ public class Sqrt {
     }
 
     public static void main(String[] args) {
-        int i = mySqrt(100000000);
+        int i = mySqrt(17);
         System.out.println(i);
     }
 }

@@ -32,4 +32,23 @@ public class Question53_zuidazixuhe {
         }
         return max;
     }
+
+    public static int maxSubArray2(int[] nums) {
+        int ans = nums[0];
+        int sum = 0;
+        for(int num: nums) {
+            if(sum > 0) {
+                sum += num;
+            } else {
+                sum = num;
+            }
+            ans = Math.max(ans, sum);
+        }
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {100,0,100};
+        System.out.println( maxSubArray2(nums));
+    }
 }

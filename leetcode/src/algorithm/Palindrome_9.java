@@ -25,7 +25,17 @@ package algorithm;
  * 链接：https://leetcode-cn.com/problems/palindrome-number
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+
+/**
+ * 回文数
+ */
 public class Palindrome_9 {
+    /**
+     * 翻转右侧，while{原数去掉个位，翻转数加各位}，直到原数小于或等于翻转数时终止
+     * 如果数字位数为奇数，翻转数/10去掉各位
+     * @param x
+     * @return
+     */
     public boolean isPalindrome(int x) {
 
         if(x< 0 || (x%10 == 0 && x != 0)){
