@@ -25,5 +25,9 @@ class Solution {
     public int rob(int[] nums) {
 
     }
+
+    public int rob(int[] nums, int index){
+
+    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
