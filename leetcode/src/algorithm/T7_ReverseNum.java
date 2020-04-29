@@ -23,7 +23,7 @@ package algorithm;
  * 链接：https://leetcode-cn.com/problems/reverse-integer
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class T7_ReverseNu {
+public class T7_ReverseNum {
     public int reverse(int x) {
         int rev = 0;
         while(x != 0){
@@ -56,7 +56,7 @@ public class T7_ReverseNu {
     }
 
     public static void main(String[] args) {
-        int reverse = new T7_ReverseNu().reverse2(-123456789);
+        int reverse = new T7_ReverseNum().reverse2(-123456789);
         System.out.println(reverse);
         System.out.println(Math.pow(2,31));
 

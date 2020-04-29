@@ -17,7 +17,7 @@ package array;
 //输出: 4
 // Related Topics 位运算 哈希表
 
-public class Question136 {
+public class T136_SingleNum {
 
     public int singleNumber(int[] nums) {
         int temp = nums[0];
@@ -31,7 +31,7 @@ public class Question136 {
 
     public static void main(String[] args) {
         int[] nums = {1,1,2,3,3,2,4};
-        int i = new Question136().singleNumber(nums);
+        int i = new T136_SingleNum().singleNumber(nums);
         System.out.println(i);
     }
 }
